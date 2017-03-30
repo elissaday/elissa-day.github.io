@@ -2,16 +2,19 @@
 <html>
   <head>
     <title>Elissa Day</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Barrio|Quicksand|Vibur" rel="stylesheet">
 </head>
   
 <style>
 	
 body {
-	font-family: sans-serif;
+	font-family:'Quicksand', sans-serif;
 	font: helvetica, arial;
 	padding: 0px;
 	margin: 0px;
 	background-color: #F0FFF0;
+  	line-height: 1.5;
 }
 
 .container {
@@ -35,11 +38,10 @@ ul {
 }
 
 header {
-	background: #101870;
+	background: #001f3f;
 	color: #ffffff;
 	padding-top: 30px;
 	min-height: 70px;
-	border-bottom: #ffffff 3px solid;
 }
 
 header a {
@@ -79,15 +81,15 @@ header a: hover {
 
 #main {
 	min-height: 400px;
-	background: url() no-repeat 0-400px;
 	text-align: center;
 	color: #ffffff;
+	background-image: url("merunning.jpg");
+	background-size: cover;
 }
 
 #main h1 {
 	margin-top: 100px;
 	font-size: 50px;
-	margin-bottom: 10px;
 }
 
 #main p {
@@ -97,7 +99,7 @@ header a: hover {
 #contact {
 	padding: 15px;
 	color: #ffffff;
-	background: #101870;
+	background: #001f3f;
 }
 
 #contact h1 {
@@ -142,20 +144,18 @@ article#main-col {
 
 h2 {
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font: helvetica, arial;
-	background: #101870;
+	background: #001f3f;
 	color: #ffffff;
 	padding-top: 30px;
 	min-height: 70px;
-	border-bottom: #ffffff 3px solid;
 }
 
-
 #map {
-        width: 100%;
-        height: 400px;
-        background-color: grey;
+  width: 100%;
+  height: 400px;
+  background-color: grey;
       }
 
 iframe {
@@ -167,8 +167,71 @@ footer {
 	padding: 20px;
 	margin-top: 20px;
 	color: #ffffff;
-	background-color: #101870;
+	background-color: #001f3f;
 	text-align: center;
+}
+
+.paragraph {
+	color: #404040;
+}
+
+#titlebox {
+	font-family: 'Walter Turncoat', sans-serif;
+}
+
+h1 {
+	font-family: 'Vibur', cursive;
+	vertical-align: center;
+}
+
+.highlight {
+	color: green;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  align-content: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  align-content: center;
+  text-align: center;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  align-content: center;
+  text-align: center;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  align-content: center;
+  text-align: center;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  align-content: center;
+  text-align: center;
+}
+
+.icons-wrapper {
+  text-align: center;
 }
 
 </style>
@@ -177,7 +240,7 @@ footer {
     <header>
       <div class="container">
         <div id="titlebox">
-          <h1>Elissa Day</h1>
+          <h1>ELISSA DAY</h1>
         </div>
         <nav>
           <ul>
@@ -191,14 +254,14 @@ footer {
 
     <section id="main">
       <div class="container">
-        <h1>Header</h1>
+        <h1>Welcome</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
       </div>
     </section>
 
     <section id="contact">
       <div class="container">
-        <h1>Subscribe To My Newsletter</h1>
+        <h1>Contact Me</h1>
         <form>
           <input type="email" placeholder="Type your email address here">
           <button type="submit" class="button_1">Submit</button>
@@ -206,52 +269,40 @@ footer {
       </div>
     </section>
 
-    <section id="boxes">
-      <div class="container">
-        <div class="box">
-          <img src="./">
-          <h3>Student</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-        </div>
-        <div class="box">
-          <img src="./img/">
-          <h3>Ambassador</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-        </div>
-        <div class="box">
-          <img src="./img/">
-          <h3>Writer</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
-      	</div>
+    <section>
+    	<div class="paragraph">
+    	<p><p align="justify">Hi there. I'm <span class="highlight">Elissa</span>, a 1st year university student studying <span class="highlight">Egyptology</span> with <span class="highlight">Chinese</span>.</p align="justify"></p> 
+
+    	<p><p align="justify">This website was designed as part of the 2017 <span class="highlight">Code First: Girls</span> course at the <span class="highlight">University of Liverpool</span>, in order to help students like myself organise their university lives and make good decisions. It contains various resources, such as articles, vocabulary lists and templates for CVs and timetables.</p align="justify"></p>
+
+    	<p><p align="justify">I know how hard it is for students these days to get the <span class="highlight">experience</span> they need for the graduate market. Last summer, I was determined to work in order to save up for university. I sent off countless applications, with an interview rate of around 20%. Most employers weren't willing to take me on for just a few months, but my perseverance paid off, with not one, but two jobs, at <span class="highlight">Clinton Cards</span> and <span class="highlight">Build-A-Bear Workshop</span>.</p align="justify"></p> 
+
+    	<p><p align="justify">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p align="justify"></p> 
+
+    	<p><p align="justify">Elissa, who attends the University of Liverpool, will be the first ever student to graduate from the institution with a degree in Egyptology with Chinese, which includes the study of hieroglyphs, Egyptian history, archaeology and literature, as well as Mandarin. Since starting university, Elissa has taken up fencing, and runs her own radio show, having also appeared on BBC Radio 4’s ‘The 3rd Degree’ earlier this year.  She works as a Student Advocate, helping to run Widening Participation & Outreach projects for the university. In addition, she received a government-funded place to travel to Shanghai and study at East China Normal University for three weeks at Easter. Over summer, she will be working at an international summer school in York, an Egyptological charity, and a corporate law firm. Elissa is an ex-SEO Scholar who is now on SEO’s two corporate law programmes, and hopes to become a solicitor after graduation.</p align="justify"></p>
+    	</div>
     </section>
 
     <section>
-    	<p><p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p align="justify"></p>
-    </section>
-
-     <section>
-    	<p><p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p align="justify"></p>
-    </section>
-
-     <section>
-    	<p><p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p align="justify"></p>
-    </section>
-
-    <section>
-    	<h2>Places I've Visited</h2>
+    	<h2>Who? What? Where? Why? When? How?</h2>
     </section>
 
 	<section>
 		<div id="map"></div>
     <script>
       function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
+        var lpool = {lat: 53.4043586, lng: -2.9686391};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
+			scrollwheel: false,
+			navigationControl: false,
+			mapTypeControl: false,
+			scaleControl: false,
+			draggable: false,
+			zoom: 10,
+			center: lpool
         });
         var marker = new google.maps.Marker({
-          position: Liverpool,
+          position: lpool,
           map: map
         });
       }
@@ -262,11 +313,43 @@ footer {
 	</section>	
 
 <section>
-    	<p><p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p align="justify"></p>
+	<div class="paragraph">
+    	<p><p align="justify"><span class="highlight">Who?</span>
+    	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p align="justify"></p>
+
+    	<p><p align="justify"> <span class="highlight">What?</span>
+    	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p align="justify"></p>
+
+		<p><p align="justify"> <span class="highlight">Where?</span>
+    	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p align="justify"></p>
+
+    	<p><p align="justify"> <span class="highlight">Why?</span>
+    	I know how hard it is for students these days to get the <span class="highlight">experience</span> they need for the graduate market. Last summer, I was determined to work in order to save up for university. I sent off countless applications, with an interview rate of around 20%. Most employers weren't willing to take me on for just a few months, but my perseverance paid off, with not one, but two jobs, at <span class="highlight">Clinton Cards</span> and <span class="highlight">Build-A-Bear Workshop</span>.</p align="justify"></p>
+
+		<p><p align="justify"> <span class="highlight">When?</span>
+    	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p align="justify"></p>
+
+    	<p><p align="justify"><span class="highlight">How?</span>
+    	This website was designed as part of the 2017 <span class="highlight">Code First: Girls</span> course at the <span class="highlight">University of Liverpool</span>, in order to help students like myself organise their university lives and make good decisions. It contains various resources, such as articles, vocabulary lists and templates for CVs and timetables.</p align="justify"></p>
+    	</div>
     </section>
+
+
+<section>
+    <h2>Social Media</h2>
+    <p><p align="justify">Find links to all of my social media pages below! I'm most active on LinkedIn and Instagram, but I try to update my Facebook page (for my radio show) weekly, too.</p align="justify"></p>
+    <div class="icons-wrapper">
+      <a href="https://www.facebook.com/daydioshow" class="fa fa-facebook"></a>
+      <a href="https://www.twitter.com/emtd98" class="fa fa-twitter"></a>
+      <a href="https://www.linkedin.com/in/elissaday/" class="fa fa-linkedin"></a>
+      <a href="https://www.instagram.com/emtd.98/" class="fa fa-instagram"></a>
+    </div>
+ </section>
+
 
 <section>
     <h2>Contact Me</h2>
+    <p><p align="center">Let me know if there's anything I can help you with!</p align="center"></p> 
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScqtp951qOM1rAcMYSNicwj00Fw4ztrq62RqjCzRE-_GhGIBQ/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </section>
 
