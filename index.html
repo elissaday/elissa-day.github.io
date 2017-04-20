@@ -278,48 +278,17 @@ h1 {
       </div>
     </section>
 
-    <section>
-    	<div class="introduction">
-    	<p><p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p align="justify"></p>
-    	<p align="center"><img src="sauce.jpg" alt="Me" width="760" height="auto"></p align="center">
-      	<p><p align="center"><i>Elissa in her natural habitat (a fried chicken restaurant)</i></p align="center"></p>
-    	</div>
-    </section>
-
-    <section>
-    	<h2>About This Site</h2>
-    </section>
-
-	<section>
-		<div id="map"></div>
-    <script>
-      function initMap() {
-        var lpool = {lat: 53.4043586, lng: -2.9686391};
-        var map = new google.maps.Map(document.getElementById('map'), {
-			scrollwheel: false,
-			navigationControl: false,
-			mapTypeControl: false,
-			scaleControl: false,
-			draggable: false,
-			zoom: 10,
-			center: lpool
-        });
-        var marker = new google.maps.Marker({
-          position: lpool,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfFgxZzXS-0urVluSoNDpWMtnVFUnJnSU&callback=initMap">
-    	</script>
-	</section>	
 
 <section>
 	<div class="paragraph"><p align="justify">
     	<p><p align="center"><span class="highlight">Who?</span></p align="center"></p>
 
     	<p><p align="justify"> Hi there. I'm <span class="highlight">Elissa</span>, a 1st year university student studying <span class="highlight">Egyptology</span> with <span class="highlight">Chinese</span>, which is a major/minor course. </p align="justify"></p>
+
+    	<p align="center"><img src="sauce.jpg" alt="Me" width="760" height="auto"></p align="center">
+
+      	<p><p align="center"><i>Me, in my natural habitat (a fried chicken restaurant).</i></p align="center"></p>
+ 
 
     	<p><p align="center"> <span class="highlight">What?</span></p align="center"></p>
 
@@ -328,6 +297,31 @@ h1 {
 		<p><p align="center"> <span class="highlight">Where?</span></p align="center"></p>
 
     	<p><p align="justify">I'm currently a student at the University of Liverpool, but I am from London and am based there during the holidays.</p align="justify"></p>
+
+    	<section>
+		<div id="map"></div>
+    	<script>
+      	function initMap() {
+       	 var lpool = {lat: 53.4043586, lng: -2.9686391};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+				scrollwheel: false,
+				navigationControl: false,
+				mapTypeControl: false,
+				scaleControl: false,
+				draggable: false,
+				zoom: 10,
+				center: lpool
+        	});
+        var marker = new google.maps.Marker({
+          	position: lpool,
+          	map: map
+        	});
+      		}
+    	</script>
+    	<script async defer
+    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfFgxZzXS-0urVluSoNDpWMtnVFUnJnSU&callback=initMap">
+    	</script>
+		</section>	
 
     	<p><p align="center"> <span class="highlight">Why?</span></p align="center"></p>
 
@@ -344,14 +338,14 @@ h1 {
     </section>
 
 
-<section>
-    <h2>Social Media</h2>
-    <p><p align="center">Find links to all of my social media pages below! I'm most active on LinkedIn and Instagram, but I try to update my Facebook page (for my radio show) weekly, too.</p align="center"></p>
+	<div class="paragraph"><p><p align="center"><span class="highlight">Social Media</span></p align="center"></p>
+    <p><p align="justify">Find links to all of my social media pages below! I'm most active on LinkedIn and Instagram, but I try to update my Facebook page (for my radio show) weekly, too.</p align="justify"></p>
     <div class="icons-wrapper">
       <a href="https://www.facebook.com/daydioshow" class="fa fa-facebook"></a>
       <a href="https://www.twitter.com/emtd98" class="fa fa-twitter"></a>
       <a href="https://www.linkedin.com/in/elissaday/" class="fa fa-linkedin"></a>
       <a href="https://www.instagram.com/emtd.98/" class="fa fa-instagram"></a>
+    </div>
     </div>
  </section>
 
